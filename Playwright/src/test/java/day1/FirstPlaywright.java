@@ -24,7 +24,7 @@ public class FirstPlaywright extends Utility{
 		page.locator("#Email").fill("test@gmail.com");
 		page.locator("#Password").fill("Tamil*1106");
 		page.locator("#ConfirmPassword").fill("Tamil*1106");
-		System.out.println("Script Execution is completed");
+		System.out.println("Script Execution completed");
 		
 		page.close();
 		browser.close();
